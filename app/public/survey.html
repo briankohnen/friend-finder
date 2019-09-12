@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Friend Finder</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/survey.css'>
+</head>
+<body>
+    <h1>Survey: Find your BFFL</h1>
+
+    <br>
+
+    <h2>About You</h2>
+    <h4>Your name</h4>
+    <input type="text" id="nametext" required></input>
+
+    <h4>Photo of You</h4>
+    <input type="text" id="photoURL" placeholder="Valid image link please!" required></input>
+
+    <br>
+
+    <h2>Question 1</h2>
+    <select id="q1">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 2</h2>
+    <select id="q2">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 3</h2>
+    <select id="q3">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 4</h2>
+    <select id="q4">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 5</h2>
+    <select id="q5">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 6</h2>
+    <select id="q6">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 7</h2>
+    <select id="q7">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 8</h2>
+    <select id="q8">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 9</h2>
+    <select id="q9">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select>  
+
+    <h2>Question 10</h2>
+    <select id="q10">
+        <option value=""></option>
+        <option value="1">1 (Strongly disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly agree)</option>
+    </select> 
+    
+    <div id="subButton" class="genButton">Submit</div>
+
+    <footer>
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/briankohnen/friend-finder">GitHub Repo</a></p>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modalContent">
+            <div class="modalHeadCont">
+                <h1 id="modalHead">Your new best friend is...</h1>
+            </div>
+            <h2 id="match"></h2>
+            <img id="matchPic" src=""></img>
+            <div id="closeModal" class="genButton">Close</div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+    </script>
+    
+</body>
+</html>
