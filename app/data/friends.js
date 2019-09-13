@@ -16,3 +16,5 @@ let frenz = [
         ]
     }
 ];
+
+module.exports = frenz;
