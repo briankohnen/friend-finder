@@ -179,6 +179,7 @@
 
         let submitButton = document.getElementById("subButton");
         let matchModal = document.getElementById("modal");
+        let closeModal = document.getElementById("closeModal");
 
         submitButton.onclick = function () {
 
@@ -207,6 +208,10 @@
 
             });
 
+        }
+
+        closeModal.onclick = function () {
+            matchModal.style.display = "none";
         }
 
     </script>
