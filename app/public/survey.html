@@ -42,9 +42,39 @@
         max-width: 200px;
         max-height: 200px
     }
+    body {
+        margin: 0 auto;
+    }
+    .cont {
+        background: lightskyblue;
+        margin: 0 auto;
+        max-width: 980px;
+        padding: 20px;
+        border-radius: 2%;
+    }
+    footer {
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .genButton {
+        padding: 10px;
+        color: white;
+        background: darkblue;
+        cursor: pointer;
+        margin-top: 20px;
+        max-width: 75px;
+    }
+    .genButton:hover {
+        text-decoration: underline;
+        background: darkcyan;
+    }
+
     </style>
 </head>
 <body>
+    <div class="cont">
     <h1>Survey: Find your BFFL</h1>
 
     <br>
@@ -57,8 +87,10 @@
     <input type="text" id="photoURL" placeholder="Valid image link please!" required></input>
 
     <br>
+    <br>
+    <br>
 
-    <h2>Question 1</h2>
+    <h2>Question 1: I love long walks on the beach</h2>
     <select id="q1">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -68,7 +100,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 2</h2>
+    <h2>Question 2: I love dogs</h2>
     <select id="q2">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -78,7 +110,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 3</h2>
+    <h2>Question 3: I take into account others' feelings before my own</h2>
     <select id="q3">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -88,7 +120,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 4</h2>
+    <h2>Question 4: I love eating chocolate ice cream</h2>
     <select id="q4">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -98,7 +130,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 5</h2>
+    <h2>Question 5: My idea of fun is climbing Mt. Kilimanjaro</h2>
     <select id="q5">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -108,7 +140,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 6</h2>
+    <h2>Question 6: I am an angry person, all the time</h2>
     <select id="q6">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -118,7 +150,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 7</h2>
+    <h2>Question 7: I like listening to music</h2>
     <select id="q7">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -128,7 +160,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 8</h2>
+    <h2>Question 8: I am looking for love</h2>
     <select id="q8">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -138,7 +170,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 9</h2>
+    <h2>Question 9: I enjoy going to see plays at the local theatre</h2>
     <select id="q9">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -148,7 +180,7 @@
         <option value="5">5 (Strongly agree)</option>
     </select>  
 
-    <h2>Question 10</h2>
+    <h2>Question 10: I am clinically insane</h2>
     <select id="q10">
         <option value=""></option>
         <option value="1">1 (Strongly disagree)</option>
@@ -159,6 +191,7 @@
     </select> 
     
     <div id="subButton" class="genButton">Submit</div>
+</div>
 
     <footer>
         <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/briankohnen/friend-finder">GitHub Repo</a></p>
